@@ -20,9 +20,9 @@ def line_simple(array)
     current_line << " #{indexemus}. #{value},"
   end
   puts current_line
-end 
+end
 
-line_simple(katz_deli) 
+line_simple(katz_deli)
 
 ef take_a_number(line, new_person)
   line.push(new_person) # could say: "line << new_person"
@@ -42,4 +42,3 @@ end
 
 puts now_serving(katz_deli)
 puts katz_deli
-
